@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'progressbar';
+  data = {
+    type: 'success',
+    value: 85,
+    max: 150
+  };
 }

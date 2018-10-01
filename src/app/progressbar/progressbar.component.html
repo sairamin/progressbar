@@ -1,0 +1,8 @@
+<div class="master" id="master1">
+        <span class="start">00</span>
+        <span class="end">{{data.max}}</span>
+        <span class="current" [ngStyle]="setMyStyles()"><i class="fas fa-caret-up"></i>{{data.value}}</span>
+    <div class="progressbar">
+          <ngb-progressbar type="{{data.type}}" [value]="data.value" [max]="data.max"></ngb-progressbar>
+      </div>
+</div>
